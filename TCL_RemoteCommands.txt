@@ -1,0 +1,464 @@
+Power
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x1950 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0xAB054F
+DistanceWidthTimingInfo=4100, 3950, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0xAB054F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 550, 1950, 550, 950, 0xAB054F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Menu (Top Left)
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 12x2000 | 
+DistanceWidthTimingInfoStruct: 1300, 4000, 0, 2000, 500, 950
+PULSE_WIDTH: decodedRawData=0x79086F
+DistanceWidthTimingInfo=1300, 4000, 500, 2000, 500, 950
+Protocol=PulseDistance Raw-Data=0x79086F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 1300, 4000, 500, 2000, 500, 950, 0x79086F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+BookMark
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: no transition found, decode failed
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1950 | 
+40: 0 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 1950, 550, 1000
+PULSE_WIDTH: decodedRawData=0xC0F3F
+DistanceWidthTimingInfo=4050, 4000, 550, 1950, 550, 1000
+Protocol=PulseDistance Raw-Data=0xC0F3F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 550, 1950, 550, 1000, 0xC0F3F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Settings
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 11x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1950 | 
+40: 0 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 1950, 550, 1000
+PULSE_WIDTH: decodedRawData=0xC0F3F
+DistanceWidthTimingInfo=4050, 4000, 550, 1950, 550, 1000
+Protocol=PulseDistance Raw-Data=0xC0F3F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 550, 1950, 550, 1000, 0xC0F3F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Up
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1950 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0x6509AF
+DistanceWidthTimingInfo=4100, 3950, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0x6509AF 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 550, 1950, 550, 950, 0x6509AF, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Down
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 12x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 11x2000 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0x9506AF
+DistanceWidthTimingInfo=4050, 4000, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0x9506AF 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 500, 2000, 500, 1000, 0x9506AF, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Left
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x1950 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0xE501AF
+DistanceWidthTimingInfo=4100, 3950, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0xE501AF 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 550, 1950, 550, 950, 0xE501AF, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Right
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 11x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 12x2000 | 0 | 
+DistanceWidthTimingInfoStruct: 4050, 3950, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0x1B0E4F
+DistanceWidthTimingInfo=4050, 3950, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0x1B0E4F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 3950, 500, 2000, 500, 1000, 0x1B0E4F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Back
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 11x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 12x2000 | 0 | 
+DistanceWidthTimingInfoStruct: 4050, 3950, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0x1B0E4F
+DistanceWidthTimingInfo=4050, 3950, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0x1B0E4F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 3950, 500, 2000, 500, 1000, 0x1B0E4F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Home
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x1950 | 
+40: 0 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0xEF010F
+DistanceWidthTimingInfo=4050, 4000, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0xEF010F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 550, 1950, 550, 950, 0xEF010F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+tv (middle right?)
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 12x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 11x2000 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0xA7058F
+DistanceWidthTimingInfo=4100, 3950, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0xA7058F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 500, 2000, 500, 1000, 0xA7058F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+
+keyboard
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 11x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 12x2000 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0x4C0B3F
+DistanceWidthTimingInfo=4100, 3950, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0x4C0B3F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 500, 2000, 500, 1000, 0x4C0B3F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+stacked squares?
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 12x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 11x2000 | 
+DistanceWidthTimingInfoStruct: 4000, 4050, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0xC103EF
+DistanceWidthTimingInfo=4000, 4050, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0xC103EF 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4000, 4050, 500, 2000, 500, 1000, 0xC103EF, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Tiles
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1900 | 0 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 1900, 550, 950
+PULSE_WIDTH: decodedRawData=0x10FEF
+DistanceWidthTimingInfo=4100, 3950, 550, 1900, 550, 950
+Protocol=PulseDistance Raw-Data=0x10FEF 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 550, 1900, 550, 950, 0x10FEF, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+netflix
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1950 | 
+40: 0 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0x80F7F
+DistanceWidthTimingInfo=4050, 4000, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0x80F7F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 550, 1950, 550, 950, 0x80F7F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+youtube
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 11x2000 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 2000, 550, 950
+PULSE_WIDTH: decodedRawData=0xB8047F
+DistanceWidthTimingInfo=4050, 4000, 550, 2000, 550, 950
+Protocol=PulseDistance Raw-Data=0xB8047F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 550, 2000, 550, 950, 0xB8047F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+TCL Channel
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 24x550 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11x950 | 
+20: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12x1950 | 
+40: 0 | 
+DistanceWidthTimingInfoStruct: 4100, 3950, 0, 1950, 550, 950
+PULSE_WIDTH: decodedRawData=0x380C7F
+DistanceWidthTimingInfo=4100, 3950, 550, 1950, 550, 950
+Protocol=PulseDistance Raw-Data=0x380C7F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4100, 3950, 550, 1950, 550, 950, 0x380C7F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
+
+Prime Video
+NEC: Data length=52 is not 68 or 4
+Kaseikyo: Data length=52 is not 100
+Denon: Data length=52 is not 32
+RC5: first getBiphaselevel() is not MARK
+RC6: Header mark or space length is wrong
+LG: Data length=52 is not 60 or 4
+JVC: Data length=52 is not 34 or 36
+Samsung: Data length=52 is not 6 or 68 or 100
+FAST: Data length=52 is not 36
+MagiQuest: Data length=52 is not 112
+Mark:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 24x500 | 0 | 
+Space:
+ 0: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+10: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+20: 11x1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+30: 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
+40: 12x2000 | 
+DistanceWidthTimingInfoStruct: 4050, 4000, 0, 2000, 500, 1000
+PULSE_WIDTH: decodedRawData=0x7C083F
+DistanceWidthTimingInfo=4050, 4000, 500, 2000, 500, 1000
+Protocol=PulseDistance Raw-Data=0x7C083F 24 bits LSB first
+Send with: IrSender.sendPulseDistanceWidth(38, 4050, 4000, 500, 2000, 500, 1000, 0x7C083F, 24, PROTOCOL_IS_LSB_FIRST, <RepeatPeriodMillis>, <numberOfRepeats>);
